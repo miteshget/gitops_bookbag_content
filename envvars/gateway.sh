@@ -14,7 +14,7 @@
 
 # Enable the following line to disable the right-hand pane entirely.
 # Only use this if you have no terminal, no slides, and no console.
-export DEFAULT_PAGE='workshop'
+export DEFAULT_PAGE='dashboard'
 
 # Flags to explicitly enable/disable specific components
 ENABLE_CONSOLE='false'
@@ -25,18 +25,4 @@ ENABLE_TERMINAL='true'
 ENABLE_WORKSHOP='true'
 APPLICATION_NAME='bookbag'
 WORKSHOP_NAME='bookbag'
-#WORKSHOP_VARS=$(cat ./workshop-vars.json)
-WORKSHOP_VARS='{ 
-                  "guid": "gitOps1",
-                  "subdomain_base_suffix": "red.ops.example.com", 
-                  "gitlab_url": "https://utility.red.ops.example.com",
-                  "gitlab_username": "devops",
-                  "gitlab_password": "redhat123",
-                  "tower_url": "https://tower.example.com",
-                  "tower_admin_user": "devops",
-                  "tower_admin_password": "redhat123",
-                  "ssh_command": "ssh pnm@control.red.ops.example.com",
-                  "ssh_password": "redhat123",
-                  "vscode_ui_url": "http://control.red.ops.example.com",
-                  "vscode_ui_password": "redhat123"
-                  }'
+WORKSHOP_VARS='$(cat ./workshop-vars.json)'
