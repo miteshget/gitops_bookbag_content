@@ -25,4 +25,4 @@ ENABLE_TERMINAL='true'
 ENABLE_WORKSHOP='true'
 APPLICATION_NAME='bookbag'
 WORKSHOP_NAME='bookbag'
-WORKSHOP_VARS='$(cat ./workshop-vars.json)'
+
