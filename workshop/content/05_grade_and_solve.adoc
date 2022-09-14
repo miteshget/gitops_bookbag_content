@@ -35,9 +35,9 @@
 
 . Execute `grade_lab` command.
 +
-[source,bash,subs="attributes,verbatim"]
+[source,bash,role=execute]
 ----
-[devops@control 0 ~]$ grade_lab gitops_with_ansible_tower 01  devops
+grade_lab gitops_with_ansible_tower 01  devops
 ----
 
 . Sample Output
@@ -79,9 +79,9 @@ If needed, run the script to solve the lab.
 
 . Run solve_lab command.
 +
-[source,bash,subs="attributes,verbatim"]
+[source,bash,role=execute]
 ----
-[devops@control 0 ~]$ solve_lab gitops_with_ansible_tower 01
+solve_lab gitops_with_ansible_tower 01
 ----
 
 . Sample Output
